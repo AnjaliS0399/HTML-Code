@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <center>
+        <h1>SCHOOL REGISTRATION FORM</h1>
+    </center>
+    <title>School Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h4>
+            First Name : <input type="text" name="First Name" maxlength="20" placeholder="First Name">
+            
+            <br><br>Last Name : <input type="text" name="Last Name" maxlength="20" / placeholder="Last Name">
+            
+            <br><br>Father's Name : <input type="text" name="Father's Name" maxlength="40"
+                placeholder="Father's Name" />
+            <br><br>Mother's Name : <input type="text" name="Mother's Name" maxlength="20"
+                placeholder="Mother's Name" />
+            <br><br>Date Of Birth : <input type="date">
+            <br><br>Email ID : <input type="alphanumeric" name="Email ID" maxlength="30" / placeholder="Email ID">
+            <br><br>Mobile Number: <input type="number" name="Mobile Number" maxlength="10" />
+            <br><br>Gender : <input type="radio" name="male" value="Male">Male
+            <input type="radio" name="female" value="Female">Female
+            <br><br>
+            Address :<br> <textarea name="Address" rows="4" cols="25">Enter your Address here</textarea>
+            <br><br>
+            Hobbies:<ul style="list-style-type:none;">
+                <li><input type="checkbox" name="HobbyDrawing" value="Drawing" />Drawing</li>
+                <li><input type="checkbox" name="HobbySinging" value="Singing" />Singing</li>
+                <li><input type="checkbox" name="HobbyDancing" value="Dancing" />Dancing</li>
+                <li><input type="checkbox" name="HobbyCooking" value="Cooking" />Cooking</li>
+                <li><input type="checkbox" name="HobbyOther" value="Other">Others
+                    <input type="text" name="Other_Hobby" maxlength="50" placeholder="Ex- Teaching" />
+                </li>
+            </ul>
+            <br>
+            <table>
+                <tr>
+                    <th>Previous Shool Name</th>
+                    <th>Previous Class</th>
+                    <th>Previsous Class Percentage</th>
+                    <th>Current Class</th>
+                </tr>
+                <tr>
+                    <td><input type="text" name="previous school name" placeholder="Previous School Name"></td>
+                    <td><input type="number" name="previous class" placeholder="Previous Class"></td>
+                    <td><input type="number" name="previous class percentage" placeholder="Previous Class Percentage">
+                    </td>
+                    <td><input type="number" name="Current class" placeholder="Current Class"></td>
+                </tr>
+            </table>
+            <br><br>
+            <button type="button">Submit</button>
+            <button type="button">Reset</button>
+        </h4>
+    </center>
+</body>
+
+</html>
